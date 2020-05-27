@@ -1,6 +1,6 @@
 @FunctionalInterface
 interface MathInt {
-	public int calculate(int a, int b);
+	public int calculate(int a, int b, int c);
 }
 
 MathInt add = (a, b,c) -> {
